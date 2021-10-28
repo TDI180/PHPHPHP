@@ -18,7 +18,7 @@ if (isset($_GET['prenom']) AND isset($_GET['nom']) AND isset($_GET['repeter']))
 }
 else
 {
-   echo 'Il faut renseigner un NOM, un PRENOM et un NOMBRE--------------- de répétitions !';
+   echo 'Il faut renseigner un NOM, un PRENOM et un -----------NOMBRE--------------- de répétitions !';
 }
 
 ?>
