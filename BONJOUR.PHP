@@ -18,10 +18,16 @@ if (isset($_GET['prenom']) AND isset($_GET['nom']) AND isset($_GET['repeter']))
 }
 else
 {
-   echo 'Il faut renseigner un nom, un prénom et un nombre de répétitions !';
+   echo 'Il faut renseigner un NOM, un PRENOM et un NOMBRE--------------- de répétitions !';
 }
 
 ?>
+
+<p>Bonjour !</p>
+
+<p>
+       Je sais comment tu t'appelles, Tu t'appelles : <?php echo $_POST['prenom']; ?> ! 
+</p>
 
 <p>Bonjour !</p>
 
