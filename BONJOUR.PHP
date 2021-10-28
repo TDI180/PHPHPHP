@@ -34,6 +34,11 @@ else
 <p>
        Je sais comment tu t'appelles, Tu t'appelles : <?php echo $_POST['prenom']; ?> ! 
 </p>
+
+<p>
+      Si tu veux changer de prénom,	 
+	  <a href="INDEXE.php">cliqueici</a> pour revenir à formulaire.php
+</p>
  
  
 <p>
